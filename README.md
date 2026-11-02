@@ -6,11 +6,11 @@ The goal is to show diagnostic method, not just installs: symptom, evidence, roo
 
 Topology
 VM	OS	Role	IP
-WIN-DC01	Windows Server 2022	Domain controller + DNS, labnoron.local	192.168.56.10
-WIN-CLIENT01	Windows 10/11	Domain-joined client	192.168.56.50
-ticket-01	Ubuntu Server	osTicket, Apache/MariaDB/PHP; acts as router in Session 8	192.168.56.20 / 192.168.57.3
-Musashi (Kali)	Kali Linux	Attacker/diagnostic client	192.168.56.105 / 192.168.57.4
-Wazuh server	Amazon Linux	SIEM	192.168.56.30
+WIN-DC01	| Windows Server 2022	Domain controller + DNS, labnoron.local	| 192.168.56.10
+WIN-CLIENT01	| Windows 10/11	Domain-joined client	| 192.168.56.50
+ticket-01	Ubuntu | Server	osTicket, Apache/MariaDB/PHP; acts as router in Session 8	| 192.168.56.20 / 192.168.57.3
+Musashi (Kali)	Kali Linux	| Attacker/diagnostic client	| 192.168.56.105 / 192.168.57.4
+Wazuh server	| Amazon Linux	SIEM	192.168.56.30
 
 Host: Lenovo Y520, 15 GB RAM. Not every VM can run at once, so sessions were sequenced.
 
